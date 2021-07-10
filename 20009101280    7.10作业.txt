@@ -1,0 +1,13 @@
+git
+www.github.com
+
+虚拟开发环境
+www.tinkercad.com
+
+arduino官网
+www.arduino.cc
+
+pinMode()函数常放在setup()函数中来确定引脚的功能。
+OUTPUT 数字输出
+INPUT 数字输入，该状态在未接外部电路时，由于内部电路非常敏感、电磁干扰等，会让其读取值为随机的0或1
+INPUT_PULLUP 与数字输入相同，但是内部通过一个高阻值的电阻连接到电源，使得引脚在没有连接外部信号的时候能够读取稳定的高电平信号，防止干扰
